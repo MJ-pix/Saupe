@@ -1,0 +1,6 @@
+    @font-face {
+        font-family: 'BNReconGrotesk';
+        src: local("BNReconGrotesk"),
+          url("./Assets/Fonts/BNReconGrotesk.otf") format("opentype");
+        font-weight: normal;
+      }
