@@ -38,7 +38,7 @@ const Header = () => {
             {navItems.map((item, index)  => (
               <li key = {index} onClick = {(e)=>{
                 if (item.href.slice(1) !== "") {
-                  if(window.location.href === "http://localhost:3000/Gallerypage")  {
+                  if(window.location.href === "https://saupensivut.onrender.com/Gallerypage")  {
                     navigateToContact("gallery")
                     console.log("täälä ollaa2")
                   }
@@ -48,7 +48,7 @@ const Header = () => {
                  })
                 }
                 else{
-                  if(window.location.href === "http://localhost:3000/Gallerypage"){
+                  if(window.location.href === "https://saupensivut.onrender.com/Gallerypage"){
                     navigateToContact("/")
                   }
                   e.preventDefault()
