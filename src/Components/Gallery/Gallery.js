@@ -7,12 +7,13 @@ import {projectItems} from '../../Constants/constants'
 const Gallery = () => {
 
   return (
-    <div className="card-container">
-      {projectItems.map((card, index) => (
+    <div className="card-container" id='gallery'>
+      {projectItems.map((card, index, href) => (
         <ProjectCard
           key={index}
           imageSrc={card.imageSrc}
           title={card.title}
+          href= {card.href}
         />
       ))}
     </div>

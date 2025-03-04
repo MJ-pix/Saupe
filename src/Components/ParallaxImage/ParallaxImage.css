@@ -1,0 +1,17 @@
+/* Style for the parallax content section */
+.parallax-content {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Adding some transition effects for better smoothness */
+  .parallax {
+    transition: transform 0.5s ease-out;
+  }

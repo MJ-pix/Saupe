@@ -4,3 +4,17 @@
           url("./Assets/Fonts/BNReconGrotesk.otf") format("opentype");
         font-weight: normal;
       }
+
+      .carousel-root  {
+        display: flex;
+        justify-content: center;
+      }
+
+
+      :root {
+        --bg-color: #EFE8DE;
+        --font-color: #3C3C39
+      }
+      #root {
+        background-color: var(--bg-color);
+      }

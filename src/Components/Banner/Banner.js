@@ -4,9 +4,9 @@ const Banner = () => {
   
   return (
     <div id="animated-text-strip">
-      <span class="marquee">PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO&nbsp;</span>
-      <span class="marquee">PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO&nbsp;</span>
-      <span class="marquee">PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO&nbsp;</span>
+      <span className="marquee"> &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; </span>
+      <span className="marquee"> &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; </span>
+      <span className="marquee"> &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; PORTFOLIO &nbsp; </span>
     </div>
   )
 }

@@ -1,14 +1,18 @@
 import "./ProjectCard.css"
 
-  const ProjectCard = ({ imageSrc, title }) => {
+  const ProjectCard = ({ imageSrc, title, href }) => {
       return (
-        <div className="card">
-          {/* <img src={imageSrc} alt={title} className="card-image" /> */}
-          <video width="100%" height="fit-content" loop muted autoPlay src={imageSrc} className='video'></video>
-          <div className="card-text">
-            <h3>{title}</h3>
+          //VIDEON KORKEUDET STAATTISEKSI  TAI JOTAI JA OBJECTFIT COVER YMSMS
+          <div className="card"><a style={{textDecoration: "none", color:"black"}} href={href}>
+            {/* <img src={imageSrc} alt={title} className="card-image" /> */}
+            <div className="video-wrapper">
+            <video width="100%" height="fit-content" loop muted autoPlay src={imageSrc} className='video'></video>
+            </div>
+            <div className="card-text">
+              <h3>{title}</h3>
+            </div>
+            </a>  
           </div>
-        </div>
       );
     };
 

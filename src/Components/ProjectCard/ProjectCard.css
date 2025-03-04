@@ -1,9 +1,10 @@
 .card {
     width: calc(50% - 8px);
-    background-color: #fff;
+    background-color: var(--bg-color: #EFE8DE);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
   }
   
   .card-image {
@@ -18,10 +19,7 @@
   .card-text h3 {
     margin: 0;
     font-size: 1.2em;
-  }
-  
-  .card-text p {
-    color: #555;
+    color: var(--font-color);
   }
   
   .card-img {
